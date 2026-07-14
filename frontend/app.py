@@ -7,7 +7,7 @@ import faiss
 import numpy as np
 
 
-# ─ auth ─
+# auth 
 os.environ["HF_TOKEN"] = st.secrets.get("HF_TOKEN", "")
 
 st.set_page_config(page_title="DocMind", page_icon="📄", layout="wide")
