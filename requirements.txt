@@ -15,3 +15,4 @@ ollama
 python-dotenv
 pytest
 groq
+torchvision
