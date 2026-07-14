@@ -58,7 +58,7 @@ def get_groq():
 def embed(text):
     return np.array([load_model().encode(text)], dtype="float32")
 
-def chunk_text(text, size=300, overlap=50):
+def chunk_text(text, size=400, overlap=50):
     chunks, i = [], 0
     while i < len(text):
         chunks.append(text[i:i+size])
