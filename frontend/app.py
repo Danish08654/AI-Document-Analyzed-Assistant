@@ -41,7 +41,7 @@ hr { border-color: #334155 !important; }
 </style>
 """, unsafe_allow_html=True)
 
-# ── session state ──
+# session state 
 if "chunks"  not in st.session_state: st.session_state.chunks  = []
 if "index"   not in st.session_state: st.session_state.index   = faiss.IndexFlatL2(384)
 if "history" not in st.session_state: st.session_state.history = []
@@ -58,7 +58,7 @@ def get_groq():
 def embed(text):
     return np.array([load_model().encode(text)], dtype="float32")
 
-def chunk_text(text, size=400, overlap=50):
+def chunk_text(text, size=300, overlap=50):
     chunks, i = [], 0
     while i < len(text):
         chunks.append(text[i:i+size])
