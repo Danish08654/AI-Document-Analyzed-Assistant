@@ -6,6 +6,7 @@ from groq import Groq
 import faiss
 import numpy as np
 
+
 # ── auth ──
 os.environ["HF_TOKEN"] = st.secrets.get("HF_TOKEN", "")
 
@@ -130,7 +131,6 @@ with st.sidebar:
             st.session_state.history = []
             st.session_state.files   = []
             st.rerun()
-
 
 # ── main ──
 st.markdown("## Ask your documents")
