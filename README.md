@@ -64,12 +64,11 @@ User Question             Similarity Search
 
 ### AI & LLM
 - LangChain
-- Groq / OpenAI / Gemini
+- Groq 
 - Hugging Face Transformers
 
 ### Vector Database
 - FAISS
-- ChromaDB (Optional)
 
 ### Embeddings
 - HuggingFace Embeddings
@@ -84,79 +83,7 @@ User Question             Similarity Search
 
 ---
 
-## 📂 Project Structure
-
-```
-RAG-Document-QA/
-│
-├── app.py
-├── main.py
-├── requirements.txt
-├── README.md
-│
-├── data/
-│
-├── documents/
-│
-├── embeddings/
-│
-├── vector_store/
-│
-├── utils/
-│   ├── loader.py
-│   ├── splitter.py
-│   ├── embeddings.py
-│   └── retriever.py
-│
-├── services/
-│   ├── llm.py
-│   ├── rag_pipeline.py
-│   └── chat.py
-│
-└── assets/
-```
-
----
-
-## ⚙️ Installation
-
-### Clone Repository
-
-```bash
-git clone https://github.com/yourusername/rag-document-qa.git
-
-cd rag-document-qa
-```
-
-### Create Virtual Environment
-
-```bash
-python -m venv venv
-```
-
-Activate
-
-**Windows**
-
-```bash
-venv\Scripts\activate
-```
-
-**Linux / macOS**
-
-```bash
-source venv/bin/activate
-```
-
-### Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
-## ▶️ Run the Application
+##  Run the Application
 
 ### Streamlit
 
@@ -273,6 +200,6 @@ This project is licensed under the MIT License.
 
 **Danish Zulfiqar**
 
-AI Engineer | LLM Engineer | Machine Learning | Computer Vision | Generative AI | MLOps
+AI Engineer | 
 
 If you found this project helpful, consider giving it a ⭐ on GitHub!
