@@ -95,7 +95,7 @@ Question: {question}"""
     ).choices[0].message.content.strip()
 
 
-# ── sidebar ──
+#  sidebar 
 with st.sidebar:
     st.markdown("## 📄 DocMind")
     st.caption("Upload PDFs and ask anything.")
