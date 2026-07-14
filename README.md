@@ -1,6 +1,6 @@
 # 📚 AI-Powered RAG Document Analyzed System
 
-An intelligent **Retrieval-Augmented Generation ** application that enables users to upload PDF documents and ask questions in natural language. The system retrieves the most relevant information from uploaded documents and generates accurate, context-aware answers using Large Language Models.
+An intelligent Retrieval-Augmented Generation application that enables users to upload PDF documents and ask questions in natural language. The system retrieves the most relevant information from uploaded documents and generates accurate, context-aware answers using Large Language Models.
 
 ---
 
