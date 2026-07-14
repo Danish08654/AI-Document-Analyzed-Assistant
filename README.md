@@ -1,10 +1,10 @@
 # 📚 AI-Powered RAG Document Q&A System
 
-An intelligent **Retrieval-Augmented Generation (RAG)** application that enables users to upload PDF documents and ask questions in natural language. The system retrieves the most relevant information from uploaded documents and generates accurate, context-aware answers using Large Language Models (LLMs).
+An intelligent **Retrieval-Augmented Generation ** application that enables users to upload PDF documents and ask questions in natural language. The system retrieves the most relevant information from uploaded documents and generates accurate, context-aware answers using Large Language Models.
 
 ---
 
-## 🚀 Features
+##  Features
 
 - 📄 Upload one or multiple PDF documents
 - 🔍 Automatic document parsing and text extraction
@@ -114,7 +114,7 @@ uvicorn main:app --reload
 
 ---
 
-## 🎯 Use Cases
+##  Use Cases
 
 - 📚 Research Assistant
 - 📄 Legal Document Analysis
@@ -127,7 +127,7 @@ uvicorn main:app --reload
 
 ---
 
-## 💡 Example Questions
+##  Example Questions
 
 ```
 Summarize this document.
