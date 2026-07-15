@@ -35,7 +35,7 @@ if file:
 
     st.success("File loaded successfully")
 
-    chunk_size = 500
+    chunk_size = 600
     chunks = [text[i:i+chunk_size] for i in range(0, len(text), chunk_size)]
 
     for chunk in chunks:
