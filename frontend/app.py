@@ -4,7 +4,7 @@ from sentence_transformers import SentenceTransformer
 import faiss
 import numpy as np
 
-st.title("AI Business System")
+st.title("AI-Document-Analyzed-Assistant")
 
 # -----------------------------
 # SESSION STATE FIX
